@@ -1,0 +1,607 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        
+         }
+        /*Nav-Bar */
+.nav-bar ul 
+{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+}
+.nav-bar a
+{
+text-decoration: none;
+background-color: white;
+color: blue;
+}
+#btn
+{
+background-color: orange;
+color:white;
+width: 8rem;
+height: 2.5rem;
+cursor: pointer;
+border: none;
+}
+
+
+        header {
+            background: white;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        .banner {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            padding: 2rem;
+            background-color: #f9f9f9;
+        }
+
+        .banner-text {
+            flex: 1;
+            padding: 1rem;
+        }
+
+        .banner-text h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .banner-text p {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        .banner-form {
+            flex: 1;
+            background-color: #003366;
+            color: #fff;
+            padding: 2rem;
+            border-radius: 5px;
+        }
+
+        .banner-form h2 {
+            margin-bottom: 1rem;
+        }
+
+        .banner-form input {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .banner-form button {
+            width: 100%;
+            padding: 0.7rem;
+            background-color: #ff6600;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .banner-form button:hover {
+            background-color: #e65c00;
+        }
+
+        @media (max-width: 768px) {
+            .banner {
+                flex-direction: column;
+            }
+
+            .banner-text, .banner-form {
+                flex: none;
+                width: 100%;
+            }
+
+            .banner-form {
+                margin-top: 1rem;
+            }
+        }
+        .user-inp
+        {
+        height: 10rem;
+        width: 25%;
+        margin-right: 15rem;
+    }
+
+    
+
+    /* About Us Section */
+.about-us {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.about-us h1 {
+    color: #0056b3;
+}
+
+.about-us button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.about-us button:hover {
+    background-color: #0056b3;
+}
+
+/* Our Projects Section */
+.our-projects {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #eef2f7;
+}
+
+.our-projects h2 {
+    color: #0056b3;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.project-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.project-card h3 {
+    margin: 10px 0;
+    color: #0056b3;
+}
+
+.project-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.project-card button
+{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+/* Why Choose Us Section */
+.why-choose-us {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+}
+
+.why-choose-us h2 {
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+.section-underline {
+    width: 60px;
+    height: 3px;
+    background-color: #0056b3;
+    margin: 0 auto 20px;
+    border: none;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.feature-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.feature-card .icon {
+    margin-bottom: 15px;
+}
+
+.feature-card img {
+    width: 50px;
+    height: 50px;
+}
+
+.feature-card h3 {
+    margin: 10px 0;
+    color: #0056b3;
+    font-size: 20px;
+}
+
+.feature-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*Image Section*/
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 200px;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.image-grid img {
+    width: 200%;
+    height: 20rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    align-items: center;
+}
+#img3
+{
+width: 100%;
+height: 20rem;
+margin-right: 13rem;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    justify-content:center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Happy Client Section*/
+.happy-clients h2
+{
+color: rgb(55, 55, 188);
+}
+
+.happy-clients {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.client-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.client {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: calc(15% - 20px); /* Responsive width adjustment */
+}
+
+.client-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.client-image img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.client-info p {
+    margin: 5px 0;
+    color: blue;
+}
+
+@media (max-width: 768px) {
+    .client {
+        width: calc(50% - 20px); /* Adjust for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .client {
+        width: 100%; /* Make each client card full width on mobile */
+    }
+}
+
+
+
+
+
+/*Product Management Page CSS Code*/
+.nav-bar image
+{
+margin-left: 20rem;
+}
+.container {
+    font-weight: bolder;
+    font-size: large;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 250px;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.sidebar a:hover {
+    background-color: #444;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    height: 2rem;
+    width: 100%;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    margin-right: 37rem;
+}
+
+label #projectImage
+{
+margin-right: 50rem;
+}
+
+.form-group input{
+    margin-bottom: 20px;
+    height: 2rem;
+    width: 120%;
+}
+ 
+
+button {
+    background-color:rgb(228, 53, 53);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#submit
+{
+background-color:orange;
+color: #fff;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+
+#al {
+    background-color:rgb(48, 40, 40);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+}
+
+/*Footer Section*/
+
+.subscribe {
+    background-color: #007bff;
+    padding: 20px;
+    text-align: center;
+}
+
+.subscribe-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.subscribe-content p {
+    margin: 0;
+}
+
+.subscribe-content input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 70%;
+}
+
+.subscribe-button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Responsiveness */
+
+@media (max-width: 768px) {
+    .subscribe-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .subscribe-content input[type="email"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.hero {
+    background-color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.learn-more {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-media {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-media a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Responsiveness */
+
+@media (max-width: 768px) {
+    nav ul {
+        float: none;
+    }
+    nav li {
+        display: block;
+    }
+    nav a {
+        display: block;
+        width: 100%;
+    }
+    .hero-content {
+        max-width: 100%;
+    }
+}

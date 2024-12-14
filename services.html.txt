@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+</style>
+<body>
+    <header>
+        
+        <div class="nav-bar">
+        <ul>
+        <li><a href="index.html"><img src="C:\Users\hp\Downloads\4th year full stack Assets (1).zip\4th year full stack Assets\Lead Generation Landing page (Images)" alt="logo"></a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about-project.html">About Project</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><button id="btn">CONTACT</button></li>
+        <li><a id="btn" href="adminlogin.html">LOGIN</a></li>
+    </ul>
+    </header>
+</div>
+
+    <section class="banner">
+        <div class="banner-text">
+            <h1><b>Consultation,<br> Design,<br> & Marketing</b></h1>
+            </div>
+        <div class="user-inp">
+        <div class="banner-form">
+            <h2>Get a Free Consultation</h2>
+            <form action="user-data.html" method="post">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Your Email Address" required>
+                <input type="text" name="mobile" placeholder="Mobile Number" required>
+                <input type="text" name="city" placeholder="Your City" required>
+                <button type="submit">Get Quick Quote</button>
+            </form>
+        </div>
+    </div>
+    </section>
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+<!--Why Choose Us Section-->
+    <section class="why-choose-us">
+        <h2>Why Choose Us?</h2>
+        <hr class="section-underline">
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="icon">
+                    <img src="/4th year full stack Assets/Lead Generation Landing page (Icons)/home.svg" alt="Potential ROI">
+                </div>
+                <h3>Potential ROI</h3>
+                <p>
+                    Whether you're looking to buy or invest, we maximize your potential returns and value. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Omnis asperiores exercitationem iste aliquam suscipit.
+                </p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">
+                    <img src="/4th year full stack Assets/Lead Generation Landing page (Icons)/paintbrush-2.svg" alt="Design">
+                </div>
+                <h3>Design</h3>
+                <p>
+                    Our designs bring vision to life and create a compelling presentation for homes. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Harum consequuntur nemo labore tempore.
+                </p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">
+                    <img src="/4th year full stack Assets/Lead Generation Landing page (Icons)/circle-dollar-sign.svg" alt="Marketing">
+                </div>
+                <h3>Marketing</h3>
+                <p>
+                    We use modern digital marketing tools to attract potential buyers effectively. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Voluptatum reiciendis eaque fugit dolor.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Image Section-->
+
+
+        <div class="image-grid">
+    <img src="/4th year full stack Assets/Lead Generation Landing page (Images)/pexels-brett-sayles-2881232.svg" alt="Handshake 1">
+    <img src="/4th year full stack Assets/Lead Generation Landing page (Images)/pexels-brett-sayles-2881232.svg" alt="Handshake 2"><br>
+   
+</div>
+<img id="img3" src="/4th year full stack Assets/Lead Generation Landing page (Images)/pexels-brett-sayles-2881232.svg" alt="Handshake 3">
+</body>
+
+
+
+
+
+
+<br><br>
+
+<!--About Us Section-->
+        <section class="about-us">
+            <h1>About Us</h1>
+            <p>
+                Fifteen years of experience in real estate, excellent customer service, and a commitment to <br> work hard, listen, and follow through. 
+                We provide quality services to build relationships with <br> clients and, more importantly, maintain those relationships by communicating effectively.
+            </p>
+            <button>Learn More</button>
+        </section>
+    </header>
+
+    <!--Our Project Section-->
+    <main>
+        <section class="our-projects">
+            <h2>Our Projects</h2>
+            <p>We know what buyers are looking for and suggest projects that will bring clients top dollar for the sale of their homes.</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="/4th year full stack Assets/Lead Generation Landing page (Images)/pexels-brett-sayles-2881232.svg" alt="Consultation">
+                    <h3>Consultation</h3>
+                    <p>Project Name • Location</p>
+                    <button>Learn More</button>
+                </div><div class="project-card">
+                    <img src="/4th year full stack Assets/Lead Generation Landing page (Images)/pexels-brett-sayles-2881232-1.svg" alt="Consultation">
+                    <h3><br>Design</h3>
+                    <p>Project Name • Location</p>
+                    <button>Learn More</button>
+                </div>
+                <div class="project-card">
+                    <img src="/4th year full stack Assets/Lead Generation Landing page (Images)/pexels-brett-sayles-2881232-2.svg" alt="Design">
+                    <h3><br>Marketing & Design</h3>
+                    <p>Project Name • Location</p>
+                    <button>Learn More</button>
+                </div>
+                <div class="project-card">
+                    <img src="/4th year full stack Assets/Lead Generation Landing page (Images)/pexels-brett-sayles-2881232-3.svg" alt="Marketing & Design">
+                    <h3><br>Consultation & Marketing</h3>
+                    <p>Project Name • Location</p>
+                    <button>Learn More</button>
+                </div>
+                <div class="project-card">
+                    <img src="/4th year full stack Assets/Lead Generation Landing page (Images)/pexels-fauxels-3182834.svg" alt="Consultation & Marketing">
+                    <h3><br><br>Consultation</h3>
+                    <p>Project Name • Location</p>
+                    <button>Learn More</button>
+                </div>
+            </div>
+        </section>
+    
+<!--Happy Client Section-->
+
+<section class="happy-clients">
+    <h2>Happy Clients</h2>
+    <div class="client-container">
+        <div class="client">
+            <div class="client-image">
+                <img src="rowhan-smith.jpg" alt="Rowhan Smith">
+            </div>
+            <div class="client-info">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <p><strong>Rowhan Smith</strong></p>
+                <p>CEO,ForeClosure</p>
+            </div>
+        </div>
+        <div class="client">
+            <div class="client-image">
+                <img src="shipra-kayak.jpg" alt="Shipra Kayak">
+            </div>
+            <div class="client-info">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <p><strong>Shipra Kayak</strong></p>
+                <p>Brand Designer</p>
+            </div>
+        </div>
+        <div class="client">
+            <div class="client-image">
+                <img src="john-lepore.jpg" alt="John Lepore">
+            </div>
+            <div class="client-info">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <p><strong>John Lepore</strong></p>
+                <p>CEO at XYZ Company</p>
+            </div>
+        </div>
+        <div class="client">
+            <div class="client-image">
+                <img src="marry-freeman.jpg" alt="Marry Freeman">
+            </div>
+            <div class="client-info">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <p><strong>Marry Freeman</strong></p>
+                <p>Marketing Manager at Mobi</p>
+            </div>
+        </div>
+        <div class="client">
+            <div class="client-image">
+                <img src="lucy.jpg" alt="Lucy">
+            </div>
+            <div class="client-info">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <p><strong>Lucy</strong></p>
+                <p>Sales at Mobi</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+</header>
+
+<section class="hero">
+<section class="subscribe">
+        <div class="subscribe-content">
+            <p>Subscribed Us:</p>
+            <input type="email" placeholder="Enter Email Address">
+            <button class="subscribe-button">Subscribe</button>
+        </div>
+    </section>
+
+<div class="hero-content">
+    <h1>Learn more about our listing process, as well as our additional staging and design work.</h1>
+    <button class="learn-more">Learn More</button>
+</div>
+<img src="image-of-living-room.jpg" alt="Living Room" class="hero-image">
+</section>
+
+<footer>
+<p>&copy; All Rights Reserved 2023</p>
+<img src="real-trust-logo.png" alt="Real Trust Logo">
+<ul class="social-media">
+    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+</ul>
+</footer>
+
+
+    </main>
+</body>
+</html>
