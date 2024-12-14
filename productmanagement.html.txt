@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+body
+{
+margin:0;
+padding:0;
+}
+</style>
+<body>
+    <form action="">
+    <div class="nav-bar">
+    <ul>
+        <li><img src="/4th year full stack Assets/Lead Generation Landing page (Images)/logo.svg" alt="Real"></li>
+        <li><a href="">HOME</a></li>
+        <li><a href="">SERVICES</a></li>
+        <li><a href="">ABOUT PRODUCTS</a></li>
+        <li><a href="">TESTIMONIALS</a></li>
+        <li><button>CONTACT</button></li>
+        <li><button id="al">Admin Login</button></li>
+    </ul>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <a href="productman.html"><h2>Admin Dashboard</h2></a>
+            <ul>
+                <li><a href="productman.html">Product Management</a></li>
+                <li><a href="clientman.html">Client Management</a></li>
+                <li><a href="#">Contact Form Detail</a></li>
+                <li><a href="#">Subscribed Emails</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2>Product Management</h2>
+            <form>
+                <div class="form-group">
+                    <label id="projectImage" for="projectImage">Project's Image</label><br>
+                    <input type="file" id="projectImage" name="projectImage">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="projectName" name="projectName" placeholder="Project Name" Name>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="location" name="location" placeholder="Location">
+                </div>
+                <button id="submit" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</form>
+</body>
+</html>
